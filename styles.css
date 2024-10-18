@@ -16,7 +16,7 @@
 }
 
 .todo {
-    width: 100%;
+    width: 500px;
     max-width: 540px;
     background: #fff;
     margin: 100px auto 20px;
@@ -27,6 +27,7 @@
 }
 
 .main {
+    width: 100%;
     background: rgb(237, 236, 210);
     width: 24.8rem;
     margin-bottom: 2rem;
@@ -92,4 +93,23 @@ ul li span {
 
 li span:hover {
     background: #edeef0;
+}
+
+
+
+/*************** MEDIA QUERY FOR MOBILE DEVICES ***************/
+/*************** MEDIA QUERY FOR MOBILE DEVICES ***************/
+/*************** MEDIA QUERY FOR MOBILE DEVICES ***************/
+
+@media (max-width: 480px) {
+   input {
+    width: 10rem;
+   }
+   button {
+    width: 3rem;
+   }
+   .main {
+    background: #ffffff;
+    width: fit-content;
+   }
 }
